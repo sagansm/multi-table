@@ -2,12 +2,12 @@ package me.ssagan.multitable.util;
 
 public class Arithmetic {
     public static String[] getMultiplicationTable(int from, int to) {
-        int l = (to - from + 1) * (to - from + 1);
+        int tableLength = (to - from + 1) * (to - from + 1);
         int ind = 0;
-        String[] multiplicationTable = new String[l];
-        for (int i = from; i <= to; i++) {
-            for (int j = from; j <= to; j++) {
-                multiplicationTable[ind] = i + " x " + j + " = " + i * j;
+        String[] multiplicationTable = new String[tableLength];
+        for (int miltiplier1 = from; miltiplier1 <= to; miltiplier1++) {
+            for (int multiplier2 = from; multiplier2 <= to; multiplier2++) {
+                multiplicationTable[ind] = miltiplier1 + " x " + multiplier2 + " = " + miltiplier1 * multiplier2;
                 ind++;
             }
         }
