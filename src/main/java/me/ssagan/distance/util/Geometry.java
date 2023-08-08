@@ -1,6 +1,6 @@
 package me.ssagan.distance.util;
 
-import me.ssagan.distance.model.Point;
+import me.ssagan.distance.model.entity.Point;
 
 public class Geometry {
     public static double getDistance(Point a, Point b) {

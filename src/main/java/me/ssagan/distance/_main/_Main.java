@@ -1,6 +1,6 @@
 package me.ssagan.distance._main;
 
-import me.ssagan.distance.model.Point;
+import me.ssagan.distance.model.entity.Point;
 import me.ssagan.distance.util.Geometry;
 
 import java.util.Scanner;

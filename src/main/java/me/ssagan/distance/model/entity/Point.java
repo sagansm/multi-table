@@ -1,4 +1,4 @@
-package me.ssagan.distance.model;
+package me.ssagan.distance.model.entity;
 
 public class Point {
     private int x;
